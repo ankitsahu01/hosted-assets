@@ -1,0 +1,216 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{1pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ankit Sahu} \\ \vspace{5pt}
+    \small 
+    \raisebox{-0.14\height}{\href{tel:+917415773301}{\underline{{\scriptsize \faPhone} +91-7415773301}}} $|$
+    \href{mailto:sahu6856@gmail.com}{\underline{{\scriptsize \faEnvelope} sahu6856@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/ankit-sahu-ind/}{\underline{{\scriptsize \faLinkedin} linkedin.com/in/ankit-sahu-ind}} $|$
+    \href{https://ankitsahu.vercel.app/}{\underline{{\scriptsize \faPortrait} portfolio}}
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{Summary}
+  Professional with 3+ years of experience in front-end development. Strong background in building web applications and admin panels, as well as in redesigning and refactoring existing codebases.
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Master of Computer Applications} {Indore, MP}
+      {Dr. A.P.J. Abdul Kalam University} {2021 - 2023}
+    \resumeSubheading
+      {Bachelor of Computer Science} {Gwalior, MP}
+      {Govt. Adarsh Science College} {2015 - 2019}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Web Developer} {Dec 2022 - Present}
+      {FitPeo} {Remote}
+      \resumeItemListStart
+        \resumeItem{Developed and maintained six internal web portals supporting over \textbf{50,000} global admins, patients, providers, and caretakers by writing reusable React components and building end-to-end features.}
+        \resumeItem{Published a large feature as a private NPM package to reuse it across all web portals.}
+        \resumeItem{Introduced strong typing for existing JavaScript codebase, resulting in 30\% reduction in runtime errors.}
+        \resumeItem{Implemented TypeScript and incorporated unit testing framework (Cypress with 90\% coverage), enhancing code quality and application stability.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Freelance Web Developer $|$ \href{https://www.freelancer.in/u/ankitsahu1}{\underline{profile} {\scriptsize \faExternalLink*} }} {Feb 2021 - Nov 2021}
+      {Freelancer.com \& Private Clients}{Remote}
+      \resumeItemListStart
+        \resumeItem{Developed dynamic websites as per the clients' requirements.}
+        \resumeItem{Achieved a \textbf{4.6-star} rating on my Freelance profile from clients.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Web Developer} {July 2020 - Dec 2020}
+      {Binary System} {Gwalior}
+      \resumeItemListStart
+        \resumeItem{Successfully developed an e-commerce web app using PHP, MySQL, and integrated the Paytm Payment Gateway.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \small\emph{\textbf{Note: According to the nondisclosure agreement (NDA) in place, live URLs for FitPeo portals cannot shared publicly.}}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Super Admin, Admin, Patient, Caretaker \& Provider portals}}
+          {}
+          \resumeItemListStart
+            \resumeItem{Technologies used: ReactJS, RemixJS, TypeScript, Redux, Antd, MUI, Tailwind, Cypress.}
+            \resumeItem{Completely redesigned and refactored code, completed business requirements, and integrated APIs in all portals.}
+            \resumeItem{Improved user experience across all platforms by addressing design flaws \& enhancing overall usability.}
+            \resumeItem{Reduced average page load time by 35\% through code optimizations.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{FitPeo Website} $|$ \emph{NextJS, Redux, MaterialUI, Tailwind}}
+          {\href{https://www.fitpeo.com/}{\underline{visit site} {\scriptsize \faExternalLink*} }}
+          \resumeItemListStart
+            \resumeItem{Successfully redesigned and redeveloped the brand website using MUI.}
+            \resumeItem{Delivering a visually appealing and modern online presence that effectively showcases FitPeo's offerings.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{TalkGram} $|$ \emph{Socket.io, ReactJS, Redux, MUI, ExpressJS, MongoDB}}
+          {\href{https://talkgram.onrender.com/}{\underline{visit site} {\scriptsize \faExternalLink*} }}
+          \resumeItemListStart
+            \resumeItem{Developed a chat web app to help users connect and share with others, including a group chat feature.}
+            \resumeItem{Implemented Google OAuth and sms OTP verification for custom registration.}
+            \resumeItem{Integrated with web Socket to make it real time conversation and notifications.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages/Database}{: JavaScript, TypeScript, HTML/CSS, C/C++, MySql, MongoDB} \\ \vspace{1.5pt}
+     \textbf{Libraries/Frameworks}{: React.js, Redux, Remix.js, Next.js, Node.js, Express.js, Material-UI, Antd} \\ \vspace{1.5pt}
+     \textbf{Developer Tools}{: Git, GitLab, Jira, Azure DevOps, VS Code} \\ \vspace{1.5pt}
+     \textbf{Soft Skills}{: Problem-solving, Team work, Active listening, \textbf{Ownership}}
+    }}
+ \end{itemize}
+
+
+%-----------DECLARATION-----------
+\section{Declaration}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     In my opinion and knowledge, the information provided above is true and correct.
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
