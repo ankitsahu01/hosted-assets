@@ -1,0 +1,223 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{1pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ankit Sahu} \\ \vspace{5pt}
+    \small 
+    \raisebox{-0.14\height}{\href{tel:+917415773301}{\underline{{\scriptsize \faPhone} +91-7415773301}}} $|$
+    \href{mailto:sahu6856@gmail.com}{\underline{{\scriptsize \faEnvelope} sahu6856@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/ankit-sahu-ind/}{\underline{{\scriptsize \faLinkedin} linkedin.com/in/ankit-sahu-ind}} $|$
+    \href{https://ankitsahu.vercel.app/}{\underline{{\scriptsize \faPortrait} portfolio}}
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{Summary}
+\textbf{Frontend-focused} Full-Stack Engineer with \textbf{4+} years of experience building scalable apps using React.js and Next.js. Google Cloud \textbf{Certified} (ACE), skilled in cloud infrastructure, REST APIs, and GenAI automation.
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Master of Computer Applications} {Indore, MP}
+      {Dr. A.P.J. Abdul Kalam University} {2021 - 2023}
+    \resumeSubheading
+      {Bachelor of Computer Science} {Gwalior, MP}
+      {Jiwaji University} {2015 - 2019}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+   \resumeSubheading
+      {Software Engineer - JavaScript } {May 2025 - Present}
+      {\textbf{Aviato Consulting }} {Remote}
+      \resumeItemListStart
+        \resumeItem{Developed \textbf{ReactJS/NextJS} web applications with integrated GenAI capabilities for enhanced user experience.}
+        \resumeItem{Managed cloud infrastructure and application deployments on Google Cloud Platform (\textbf{GCP}) utilizing Terraform, Cloud Run, Firebase, Cloud SQL, and GCS.}
+        \resumeItem{Automated complex business workflows and data pipelines using \textbf{N8N}.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Web Developer} {Dec 2022 - Apr 2025}
+      {\textbf{FitPeo Tech Private Limited}} {Remote}
+      \resumeItemListStart
+        \resumeItem{Developed 6 internal ReactJS \& NextJS web portals for \textbf{50,000+} global users and published reusable features as private NPM packages.}
+        \resumeItem{Migrated legacy JavaScript codebase to TypeScript, reducing runtime errors by 30\%.}
+        \resumeItem{Implemented Cypress unit testing with 90\% coverage, significantly enhancing application stability.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \small\emph{\textbf{Note: According to the NDA in place, live URLs for portals cannot be publicly shared.}}
+    \resumeSubHeadingListStart
+
+        \resumeProjectHeading
+          {\textbf{Newsary (PrTech)} $|$ \emph{NextJS, TypeScript, Tailwind, GenAI, N8N}}
+          {}
+          \resumeItemListStart
+            \resumeItem{Built a PR platform featuring an AI-powered chat interface using Next.js.}
+            \resumeItem{Implemented server-side AI processing to interpret user inputs and orchestrate automated workflows using n8n.}
+          \resumeItemListEnd
+        
+        \resumeProjectHeading
+          {\textbf{Cleverbean \& Loomi (EdTech)} $|$ \emph{ReactJS, RemixJS, NextJS, TypeScript, Redux, Shadcn, Tailwind}}
+          {}
+          \resumeItemListStart
+            \resumeItem{Developed an automated written assessment feature to evaluate and track student progress effectively.}
+            \resumeItem{Implemented Google OAuth verification for registration.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Super Admin, Admin, Patient, Caretaker \& Provider portals}}
+          {}
+          \resumeItemListStart
+            \resumeItem{Tech: ReactJS, RemixJS, TypeScript, Tailwind, Cypress.}
+            \resumeItem{Completely redesigned and refactored code, completed business requirements, and integrated APIs in all portals.}
+            \resumeItem{Optimized application performance, reducing average page load time by 35\%.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{FitPeo Website} $|$ \emph{NextJS, Redux, MaterialUI, Tailwind}}
+          {\href{https://www.fitpeo.com/}{\underline{visit site} {\scriptsize \faExternalLink*} }}
+          \resumeItemListStart
+            \resumeItem{Successfully redesigned and redeveloped the brand website using MUI.}
+            \resumeItem{Delivering a visually appealing and modern online presence that effectively showcases FitPeo's offerings.}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Google Cloud Associate Cloud Engineer} - {\href{https://www.credly.com/badges/7882cc4f-50a4-4d0f-9849-f13de5792b01/public_url/}{\underline{View Credential} {\scriptsize \faExternalLink*} }}
+    }}
+ \end{itemize}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages \& Database}{: JavaScript, TypeScript, HTML/CSS, MySQL, MongoDB, PostgreSQL, Prisma} \\ \vspace{1.5pt}
+     \textbf{Libraries \& Frameworks}{: React.js, Next.js, Remix.js, Node.js, Express.js, Tailwind CSS, Redux, Material-UI} \\ \vspace{1.5pt}
+     \textbf{Cloud \& DevOps}{: Google Cloud Platform (GCP), Docker, Terraform, N8N, Git, Cypress, Azure DevOps} \\ \vspace{1.5pt}
+     \textbf{Other Skills}{: Generative AI, Prompt Engineering, Problem-solving, Ownership}
+    }}
+ \end{itemize}
+
+
+%-----------DECLARATION-----------
+\section{Declaration}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     In my opinion and knowledge, the information provided above is true and correct.
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
